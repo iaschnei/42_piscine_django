@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CV de {name}</title>
+  
+  <style>
+
+    h1 {
+      color: #d32f2f;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>{name}</h1>
+    <p>{profession}</p>
+  </header>
+
+  <section>
+    <h2>Compétences</h2>
+    <ul>
+      <li>{competence1}</li>
+      <li>{competence2}</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Parcours</h2>
+    <ol>
+      <li>{parcours1}</li>
+      <li>{parcours2}</li>
+    </ol>
+  </section>
+
+</body>
+</html>
