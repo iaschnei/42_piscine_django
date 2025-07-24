@@ -101,19 +101,3 @@ class Elem:
                 (type(content) == list and all([type(elem) == Text or
                                                 isinstance(elem, Elem)
                                                 for elem in content])))
-
-
-
-def main():
-    result = Elem('html', content=[
-        Elem('head', content=Elem('title', content=Text('"Hello ground!"'))),
-        Elem('body', content=[
-            Elem('h1', content=Text('"Oh no, not again!"')),
-            Elem('img', attr={'src': 'https://i.imgur.com/pfp3T.jpg'}, tag_type='simple')
-        ])
-    ])
-
-    print(result)
-
-if __name__ == '__main__':
-    main()
