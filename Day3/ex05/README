@@ -1,0 +1,4 @@
+Start with :
+
+source ./my_script.sh
+python manage.py runserver
