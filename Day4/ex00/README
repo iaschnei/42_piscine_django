@@ -1,5 +1,5 @@
 Start with :
 
 source ./my_script.sh
-cd hello_world
+cd d04
 python manage.py runserver
